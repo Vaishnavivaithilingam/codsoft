@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background: #461d3dd0;
+    position: fixed;
+    padding: 0 20px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a.logo{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: uppercase;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+nav ul li{
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul a{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 13px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: .4s;
+}
+nav ul a:hover{
+    background: #ff58db;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+section#home{
+    background-image: url("https://www.togetherv.com/blog/wp-content/uploads/2021/10/My-love-for-natural-floral-scents-a-perfect-gift-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#about{
+    background-image: url("https://img.freepik.com/premium-photo/perfumes-natural-cosmetics-glass-bottle-pink-background-delicate-peony-flowers-aroma-women-s-perfume-space-text_425936-4058.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#service{
+    background-image: url("https://img.freepik.com/premium-photo/bottle-elegant-floral-perfume-toilet-water-among-fresh-delicate-peonies-pink-background-aroma-presentation-natural-perfume_425936-4041.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#contact{
+    background-image: url("https://img.freepik.com/premium-photo/perfumes-natural-cosmetics-glass-bottle-pink-background-delicate-peony-flowers-aroma-women-s-perfume-space-text_425936-4058.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h1,
+section h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 62px;
+}
+section p{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+li{
+    padding: 10px;
+    font-size: 21px;
+    color: black;
+}
